@@ -235,72 +235,75 @@ th {
 .clearfix, .container, .full-width-container {
   *zoom: 1; }
 
-/* line 4, ../../../sass/shoestring/grid.sass */
+/* line 4, /vagrant/code/project-shoestring-sass/sass/shoestring/grid.sass */
 html {
   font-size: 100%; }
 
 @media (min-width: 40rem) {
-  /* line 9, ../../../sass/shoestring/grid.sass */
+  /* line 9, /vagrant/code/project-shoestring-sass/sass/shoestring/grid.sass */
   html {
     font-size: 112%; } }
 @media (min-width: 64rem) {
-  /* line 14, ../../../sass/shoestring/grid.sass */
+  /* line 14, /vagrant/code/project-shoestring-sass/sass/shoestring/grid.sass */
   html {
     font-size: 120%; } }
-/* line 17, ../../../sass/shoestring/grid.sass */
+/* line 17, /vagrant/code/project-shoestring-sass/sass/shoestring/grid.sass */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 20, ../../../sass/shoestring/grid.sass */
+/* line 20, /vagrant/code/project-shoestring-sass/sass/shoestring/grid.sass */
 .container {
   margin: 0 auto;
   max-width: 48rem;
   width: 90%; }
-  /* line 24, ../../../sass/shoestring/grid.sass */
+  /* line 24, /vagrant/code/project-shoestring-sass/sass/shoestring/grid.sass */
   .container.demo {
     margin-bottom: 10px; }
 
-/* line 27, ../../../sass/shoestring/grid.sass */
+/* line 27, /vagrant/code/project-shoestring-sass/sass/shoestring/grid.sass */
 .container-full-width {
   margin: 0 auto;
   width: 100%; }
 
-/* line 32, ../../../sass/shoestring/grid.sass */
+/* line 32, /vagrant/code/project-shoestring-sass/sass/shoestring/grid.sass */
 .column.demo {
   background: #cccccc; }
 
 @media (min-width: 40rem) {
-  /* line 36, ../../../sass/shoestring/grid.sass */
+  /* line 36, /vagrant/code/project-shoestring-sass/sass/shoestring/grid.sass */
   .column {
     float: left;
     padding-right: 1rem;
     margin-right: 1rem; }
-    /* line 40, ../../../sass/shoestring/grid.sass */
+    /* line 40, /vagrant/code/project-shoestring-sass/sass/shoestring/grid.sass */
     .column.full {
       width: 100%; }
-    /* line 42, ../../../sass/shoestring/grid.sass */
+    /* line 42, /vagrant/code/project-shoestring-sass/sass/shoestring/grid.sass */
     .column.two-thirds {
       width: 63.7%; }
-    /* line 44, ../../../sass/shoestring/grid.sass */
+    /* line 44, /vagrant/code/project-shoestring-sass/sass/shoestring/grid.sass */
     .column.third {
       width: 31.2%; }
-    /* line 46, ../../../sass/shoestring/grid.sass */
+    /* line 46, /vagrant/code/project-shoestring-sass/sass/shoestring/grid.sass */
     .column.half {
       width: 47.5%; }
-    /* line 48, ../../../sass/shoestring/grid.sass */
+    /* line 48, /vagrant/code/project-shoestring-sass/sass/shoestring/grid.sass */
     .column.fourth {
       width: 22.5%; }
-    /* line 50, ../../../sass/shoestring/grid.sass */
+    /* line 50, /vagrant/code/project-shoestring-sass/sass/shoestring/grid.sass */
     .column.fourth-padded {
       width: 23%;
       margin-right: 2%; }
-    /* line 53, ../../../sass/shoestring/grid.sass */
+    /* line 53, /vagrant/code/project-shoestring-sass/sass/shoestring/grid.sass */
     .column.flow-opposite {
       float: right;
       padding-right: 0;
-      margin-right: 0; } }
+      margin-right: 0; }
+    /* line 57, /vagrant/code/project-shoestring-sass/sass/shoestring/grid.sass */
+    .column img {
+      width: 100%; } }
 /* line 23, ../../../sass/shoestring/buttons.sass */
 a.button, a.button:visited, input[type=button].button, input[type=submit].button, button.button {
   color: black;
@@ -405,3 +408,17 @@ a {
   /* line 8, ../../../sass/shoestring/links.sass */
   a:active {
     color: #085387; }
+
+/* line 8, ../../../sass/shoestring/header.sass */
+header {
+  position: fixed;
+  height: 40px;
+  background: black;
+  color: white;
+  width: 100%;
+  z-index: 200; }
+
+/* line 15, ../../../sass/shoestring/header.sass */
+#spacer {
+  height: 40px;
+  width: 100%; }
