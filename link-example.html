@@ -7,10 +7,20 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style type="text/css">
-          a { font-size: 60px; }
+          /*a { font-size: 60px; }*/
+          a
+            &.child
+              &.other
+          /*a.child.other { font-size: 60px; }*/
+          /*a {font-size: 10px;}*/
+          div.parent .child { font-size: 60px; }
+          div.parent
+            .child
         </style>
     </head>
     <body>
-      <a href="http://www.claystewart.co">Sample Link</a>
+        <div class="parent">
+          <a class="child other" href="http://www.claystewart.co">Sample Link</a>
+        </div>
     </body>
 </html>
