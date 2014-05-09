@@ -219,7 +219,7 @@ th {
   padding: 0; }
 
 /* clear fix */
-/* line 13, ../../../sass/shoestring/clearfix.sass */
+/* line 13, /vagrant/code/project-shoestring-sass/sass/shoestring/clearfix.sass */
 .clearfix:before, .container:before, .full-width-container:before,
 .clearfix:after,
 .container:after,
@@ -227,11 +227,11 @@ th {
   content: " ";
   display: table; }
 
-/* line 18, ../../../sass/shoestring/clearfix.sass */
+/* line 18, /vagrant/code/project-shoestring-sass/sass/shoestring/clearfix.sass */
 .clearfix:after, .container:after, .full-width-container:after {
   clear: both; }
 
-/* line 26, ../../../sass/shoestring/clearfix.sass */
+/* line 26, /vagrant/code/project-shoestring-sass/sass/shoestring/clearfix.sass */
 .clearfix, .container, .full-width-container {
   *zoom: 1; }
 
@@ -416,9 +416,20 @@ header {
   background: black;
   color: white;
   width: 100%;
-  z-index: 200; }
+  z-index: 200;
+  padding-top: 8px; }
+  /* line 16, ../../../sass/shoestring/header.sass */
+  header .logo {
+    font-weight: bold; }
+  /* line 19, ../../../sass/shoestring/header.sass */
+  header nav span a, header nav span a:active, header nav span a:visited {
+    display: inline-block;
+    margin-right: 1.6rem;
+    color: white; }
+    /* line 23, ../../../sass/shoestring/header.sass */
+    header nav span a:hover, header nav span a:active:hover, header nav span a:visited:hover {
+      color: #cccccc; }
 
-/* line 15, ../../../sass/shoestring/header.sass */
-#spacer {
-  height: 40px;
-  width: 100%; }
+/* line 27, ../../../sass/shoestring/header.sass */
+.brand {
+  margin-top: 40px; }

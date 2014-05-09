@@ -12,16 +12,17 @@ header
   color: white
   width: 100% // only necessary b/c fixed width only fits the width of the content
   z-index: 200
-#spacer
-  height: 40px
-  width: 100%
-  // &:after
-  //   height: 40px
-  //   width: 100%
-  //   // margin: 0 auto
-  //   display: block
-  //   background: blue
-  //   position: static
-  //   content: " "
-  //   top: 0
-  //   z-index: 10
+  padding-top: 8px
+  .logo
+    font-weight: bold
+  nav
+    span a, span a:active, span a:visited
+      display: inline-block
+      margin-right: 1.6rem
+      color: white
+      &:hover
+        color: #ccc
+
+// a way to make the top h1 not move up into the header
+.brand
+  margin-top: 40px
